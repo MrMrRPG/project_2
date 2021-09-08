@@ -6,11 +6,11 @@ Benji, Meagan, Josh, & Sam
 Gaming // 
 
 <b>About:</b></br>
-We like this dataset because it contains a variety of datatypes like strings and integers. We can join them on the titles of the games. The datasets provide information on earnings by game and by e-sport player. 
+We like this dataset because it contains a variety of datatypes like strings and integers. We have the option to join our tables on the titles of the games, the genre of the games, or the released date of the games. The datasets provide information on earnings by game and by e-sport player which will provide us clarity on the financial performance of modern-day online games along with their popularity with viewers. 
 
 <b>Subtopics:</b>
 - e-sports /  
-- games with broader audiences? 
+- games with broader audiences 
 - GTA
 
 <b>Technologies:</b></br> 
