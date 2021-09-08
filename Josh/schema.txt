@@ -1,0 +1,32 @@
+ESports_Earnings
+-
+IdNo int PK
+TotalMoney float FK
+GameName varchar(255) PK FK >- GeneralEsportsData.Game
+Genre varchar(255) FK -< highest_earning_players.Genre
+PlayerNo int FK
+TournamentNo int FK
+Top_Country varchar(255) FK
+Top_Country_Earnings float FK
+Releaseyear date FK
+
+GeneralEsportsData
+-
+Game varchar(255) PK FK -< highest_earning_players.Game
+ReleaseDate date FK
+Genre varchar(255) FK
+TotalEarnings float FK >- ESports_Earnings.TotalMoney
+OnlineEarnings float FK
+TotalPlayers int FK
+TotalTournaments int FK
+
+highest_earning_players
+-
+PlayerId int PK
+NameFirst varchar(255) FK
+NameLast varchar(255) FK
+CurrentHandle varchar(255) PK
+CountryCode varchar(255) FK
+TotalUSDPrize float FK
+Game varchar(255) FK - ESports_Earnings.GameName
+Genre varchar(255) FK
