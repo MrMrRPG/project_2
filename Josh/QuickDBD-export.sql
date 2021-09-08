@@ -40,7 +40,7 @@ CREATE TABLE "highest_earning_players" (
     "Game" varchar(255)   NOT NULL,
     "Genre" varchar(255)   NOT NULL,
     CONSTRAINT "pk_highest_earning_players" PRIMARY KEY (
-        "PlayerId","CurrentHandle"
+        "PlayerId"
      )
 );
 

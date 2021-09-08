@@ -25,7 +25,7 @@ highest_earning_players
 PlayerId int PK
 NameFirst varchar(255) FK
 NameLast varchar(255) FK
-CurrentHandle varchar(255) PK
+CurrentHandle varchar(255) FK
 CountryCode varchar(255) FK
 TotalUSDPrize float FK
 Game varchar(255) FK - ESports_Earnings.GameName
