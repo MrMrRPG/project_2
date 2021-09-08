@@ -3,7 +3,7 @@ ESports_Earnings
 IdNo int PK
 TotalMoney float FK
 GameName varchar(255) PK FK >- GeneralEsportsData.Game
-Genre varchar(255) FK -< highest_earning_players.Genre
+Genre varchar(255) FK >-< highest_earning_players.Genre
 PlayerNo int FK
 TournamentNo int FK
 Top_Country varchar(255) FK
