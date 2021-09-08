@@ -11,11 +11,12 @@ Alter Table "ESport_Earnings" Rename Column "Releaseyear" To "year_released";
 
 --  Show "First-Person Shooter" and "Strategy" games
 -- with US as the top country
-Delete *
+Delete
 FROM "ESport_Earnings"
 where "Genre" <> 'First-Person Shooter'
     and "Genre" <> 'Strategy'
-    and "top_country" <> 'United States';
+    and "top_country" <> 'United States'
+    and "total_earnings_usd" < 699999;
 
 -- Order by release year in ascending order;
 SELECT *
