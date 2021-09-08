@@ -10,7 +10,7 @@ Alter Table "ESport_Earnings" Rename Column "Top_Country_Earnings" To "top_count
 Alter Table "ESport_Earnings" Rename Column "Releaseyear" To "year_released";
 
 --  Show "First-Person Shooter" and "Strategy" games
--- with US as the top country
+-- with US as the top country and total earnings less than $700,000
 Delete
 FROM "ESport_Earnings"
 where "Genre" <> 'First-Person Shooter'
