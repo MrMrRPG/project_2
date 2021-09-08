@@ -16,6 +16,7 @@ We chose using PostgreSQL over a NoSQL Database because our tables will require 
 
 <b>Datasets:</b></br>
 Esports Players Earnings csv: </br>https://www.kaggle.com/jackdaoud/esports-earnings-for-players-teams-by-game?select=highest_earning_players.csv </br>
+
 Esports Earnings 1998-2021: </br>https://www.kaggle.com/rankirsh/esports-earnings
 
 <b>Business Rules:</b></br> 
