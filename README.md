@@ -31,3 +31,5 @@ Esports Earnings 1998-2021: </br>https://www.kaggle.com/rankirsh/esports-earning
 - format date 
 - unformat numbers --> INT
 
+<b>Organizing Visuals for Presentation:</b></br> 
+https://slidesgo.com/theme/linear-flowchart-infographics
