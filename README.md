@@ -21,7 +21,7 @@ Minecraft, 2k, Overwatch, League of Legends, R6-S (in general)
 
 
 <b>Final Production Database:</b></br>
-PostgreSQL
+ We chose using PostgreSQL over a NoSQL Database because our tables will require a lot of joining and a defined standard schema so we feel more comfortable with using a relational Database. 
 
 
 <b>Datasets:</b></br>
