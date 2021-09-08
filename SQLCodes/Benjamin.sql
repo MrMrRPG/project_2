@@ -9,4 +9,4 @@ Delete from "General_Esport_Data" Where "Total Earnings" < 699999;
 Select * from "General_Esport_Data";
 Select * from "General_Esport_Data" Where "Total Earnings" < 699999;
 Alter Table "General_Esport_Data" Drop Column "Genre";
-
+Delete from "General_Esport_Data" Where "Online Earnings" < 699999;
