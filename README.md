@@ -11,7 +11,7 @@ Gaming & E-sports
 We like this dataset because it contains a variety of datatypes like strings and integers. We have the option to join our tables on the titles of the games, the genre of the games, or the released date of the games. The datasets provide information on earnings by game and by e-sport player which will provide us clarity on the financial performance of modern-day online games along with their popularity with viewers. 
 
 <b>Games:</b></br>
-Minecraft, 2k, Overwatch, League of Legends, R6-S (in general)
+ESport Games
 
 <b>Final Production Database:</b></br>
 We chose using PostgreSQL over a NoSQL Database because our tables will require a lot of joining and a defined standard schema so we feel more comfortable with using a relational Database. 
@@ -19,7 +19,9 @@ We chose using PostgreSQL over a NoSQL Database because our tables will require 
 <b>Datasets:</b></br>
 Esports Players Earnings csv: </br>https://www.kaggle.com/jackdaoud/esports-earnings-for-players-teams-by-game?select=highest_earning_players.csv </br>
 
-Esports Earnings 1998-2021: </br>https://www.kaggle.com/rankirsh/esports-earnings
+General Esport: </br>https://www.kaggle.com/rankirsh/esports-earnings
+
+Esports Earnings 1998-2021: </br>https://www.kaggle.com/rushikeshhiray/esport-earnings
 
 <b>Business Rules:</b></br> 
 
