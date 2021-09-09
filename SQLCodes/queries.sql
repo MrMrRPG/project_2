@@ -11,11 +11,11 @@ Select * from "General_Esport_Data" Where "Total Earnings" < 699999;
 Alter Table "General_Esport_Data" Drop Column "Genre";
 Delete from "General_Esport_Data" Where "Online Earnings" < 699999;
 Alter Table "Esport_data" Rename to "General_Esport_Data";
-Alter Table "General_Esport_Data" Rename Column "Total Earnings" To "Total_Earnings";
-Alter Table "General_Esport_Data" Rename Column "Year Released" To "Year_Released";
-Alter Table "General_Esport_Data" Rename Column "Online Earnings" To "Online_Earnings";
-Alter Table "General_Esport_Data" Rename Column "Total Players" To "Total_Players";
-Alter Table "General_Esport_Data" Rename Column "Total Tournaments" To "Total_Tournaments";
+Alter Table "General_Esport_Data" Rename Column "Total Earnings" To "total_earnings";
+Alter Table "General_Esport_Data" Rename Column "Year Released" To "year_released";
+Alter Table "General_Esport_Data" Rename Column "Online Earnings" To "online_earnings";
+Alter Table "General_Esport_Data" Rename Column "Total Players" To "total_players";
+Alter Table "General_Esport_Data" Rename Column "Total Tournaments" To "total_tournaments";
 
 select "PlayerId" as "player_id", 
 	   "NameFirst" as "first_name",
