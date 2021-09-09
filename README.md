@@ -2,6 +2,8 @@
 <b>Members:</b></br>
 Benji, Meagan, Josh, & Sam 
 
+<b>Git Master:</b></br> Josh
+
 <b>Topic:</b></br>
 Gaming & E-sports 
 
