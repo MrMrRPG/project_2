@@ -19,18 +19,18 @@ We chose using PostgreSQL over a NoSQL Database because our tables will require 
 <b>Datasets:</b></br>
 Esports Players Earnings csv: </br>https://www.kaggle.com/jackdaoud/esports-earnings-for-players-teams-by-game?select=highest_earning_players.csv </br>
 
-General Esport: </br>https://www.kaggle.com/rankirsh/esports-earnings
+General Esport csv: </br>https://www.kaggle.com/rankirsh/esports-earnings
 
-Esports Earnings 1998-2021: </br>https://www.kaggle.com/rushikeshhiray/esport-earnings
+Esports Earnings 1998-2021 csv: </br>https://www.kaggle.com/rushikeshhiray/esport-earnings
 
 <b>Business Rules:</b></br> 
 
---- table level rules ----
+--- Table Level Rules ----
 - Keep gaming data related to the US, filter out other countries 
 - Only keep data for players that only over $700k
 - drop any row that has any missing data, only complete data 
 
----- column level rules ---- 
+---- Column Level Rules ---- 
 - lower case 
 - format date 
 - unformat numbers --> INT
