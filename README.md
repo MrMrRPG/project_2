@@ -4,6 +4,12 @@ Benji, Meagan, Josh, & Sam
 
 <b>Git Master:</b></br> Josh
 
+<b> How to access our final products <b>
+  1. In our "SQLCodes" folder, "queries.sql" contains all of our combined queries for PostgreSQL
+  2. In our "Josh" folder, "schema.txt" contains the schemata for our ERD
+  3. In the repository, "Benjamin.ipynb" contains the starter codes to transfer our raw csv files into Pandas and from Pandas into PostgreSQL
+  4. In our "Resources" folder, you will see the three datasets we used as csv files (ESport_Earnings.csv, GeneralEsportData.csv, and highest_earning_players.csv)
+
 <b>Topic:</b></br>
 Gaming & E-sports 
 
@@ -37,3 +43,5 @@ Esports Earnings 1998-2021 csv: </br>https://www.kaggle.com/rushikeshhiray/espor
 
 <b>Organizing Visuals for Presentation:</b></br> 
 https://slidesgo.com/theme/linear-flowchart-infographics
+
+
