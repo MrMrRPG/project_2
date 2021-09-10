@@ -11,6 +11,7 @@ Select * from "General_Esport_Data" Where "Total Earnings" < 699999;
 Alter Table "General_Esport_Data" Drop Column "Genre";
 Delete from "General_Esport_Data" Where "Online Earnings" < 699999;
 Alter Table "Esport_data" Rename to "General_Esport_Data";
+Alter Table "General_Esport_Data" Rename Column "Game" To "game";
 Alter Table "General_Esport_Data" Rename Column "Total Earnings" To "total_earnings";
 Alter Table "General_Esport_Data" Rename Column "Year Released" To "year_released";
 Alter Table "General_Esport_Data" Rename Column "Online Earnings" To "online_earnings";
@@ -39,13 +40,14 @@ Alter Table "ESport_Earnings" Rename Column "TournamentNo" To "tournament_id";
 Alter Table "ESport_Earnings" Rename Column "Top_Country" To "top_country";
 Alter Table "ESport_Earnings" Rename Column "Top_Country_Earnings" To "top_country_earnings";
 Alter Table "ESport_Earnings" Rename Column "Releaseyear" To "year_released";
+Alter Table "ESport_Earnings" Rename Column "Genre" To "genre";
 
 --  Show "First-Person Shooter" and "Strategy" games
 -- with US as the top country and total earnings less than $700,000
 Delete
 FROM "ESport_Earnings"
-where "Genre" <> 'First-Person Shooter'
-    and "Genre" <> 'Strategy'
+where "genre" <> 'First-Person Shooter'
+    and "genre" <> 'Strategy'
     and "top_country" <> 'United States'
     and "total_earnings_usd" < 699999;
 
